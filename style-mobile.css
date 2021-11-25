@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree&display=swap');
+
+*
+{
+    margin:0;
+    padding: 0;
+    font-family: "Bai Jamjuree";
+}
+
+body
+{
+    background: url("images/bg-header-mobile.png") no-repeat 0 0 / 100vw auto;
+}
+
+p
+{
+    color: hsl(201, 11%, 66%);
+}
+
+#keep-track-pannel, #history-pannel, #access-clipboard-pannel, #supercharge-workflow-pannel,
+#sponsors-pannel,#clipboard-apple-pannel
+{
+    width:80%;
+    margin: 0 auto;
+}
+
+
+/* -------------HISTORY PANNEL---------- */
+#history-pannel
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#company-logo
+{
+    width: 35%;
+    margin:5em 0 3em 0;
+}
+h1 
+{
+    margin-bottom: 0.5em;
+    color: rgb(80, 80, 80);
+}
+#history-pannel p
+{
+    margin-bottom: 1em;
+
+}
+
+.button-container
+{
+    width:100%;
+    margin-bottom: 8em;
+
+}
+.ios-download-btn, .mac-download-btn
+{
+    padding:0.7em 1em;
+    border-radius:1.5em; 
+    color:white;
+    box-shadow: 0px 3px 10px 5px rgba(20, 20, 20, 0.178);
+}
+.ios-download-btn
+{
+    background-color: hsl(171, 66%, 44%);
+    margin: 1.5em 0 1.5em 0;
+}
+.mac-download-btn { background-color: hsl(233, 100%, 69%); }
+
+.ios-download-btn:hover, .mac-download-btn:hover
+{
+    cursor:pointer;
+    opacity:0.8;
+}
+
+
+/* --------------KEEP TRACK--------------- */
+#keep-track-pannel
+{
+    text-align: center;
+    margin-bottom: 8em;
+}
+#keep-track-pannel h2
+{
+    margin-bottom: 0.7em;
+    color: rgb(80, 80, 80);
+}
+#keep-track-computer-container
+{
+    width:100%;
+}
+#keep-track-illustration
+{
+    width:100%;
+    margin-bottom: 3em;
+}
+.keep-track-subtext-title
+{
+    margin-bottom: 0.7em;
+    color: rgb(80, 80, 80);
+}
+.keep-track-subtext
+{
+    margin-bottom: 3em;
+}
+/* -----------ACCESS CLIPBOARD---------- */
+#access-clipboard-pannel
+{
+    text-align: center;
+    margin-bottom: 5em;
+}
+#access-clipboard-pannel h2
+{
+    margin-bottom: 0.7em;
+    color: rgb(80, 80, 80);
+}
+#access-clipboard-pannel p
+{
+    margin-bottom: 3em;
+}
+#devices-illustration
+{
+    width:100%;
+}
+
+/* ----------SUPERCHARGE WORKFLOW---------- */
+#supercharge-workflow-pannel
+{
+    text-align: center;
+}
+#supercharge-workflow-pannel h2
+{
+    margin: 0 auto 0.6em auto;
+    width:70%;
+    color: rgb(80, 80, 80);
+}
+#supercharge-workflow-description
+{
+    margin-bottom: 5em;
+}
+.workflow-feature
+{
+    margin-bottom: 4em;
+}
+.workflow-feature h3
+{
+    margin-bottom: 1em;
+    color: rgb(80, 80, 80);
+}
+.workflow-feature img
+{
+    margin-bottom: 2em;
+}
+
+/* --------------SPONSOR PANNEL-------------- */
+#sponsors-pannel
+{
+    margin-bottom: 8em;
+}
+#sponsors-pannel img
+{
+    display:block;
+    margin: 0 auto 3em auto;
+}
+
+/* -------------CLIPBOARD PANNEL------------ */
+
+#clipboard-apple-pannel
+{
+    text-align: center;
+}
+#clipboard-apple-pannel h2
+{
+    width:90%;
+    margin: 0 auto 1em auto;
+}
+#clipboard-apple-pannel p
+{
+    margin-bottom: 1em;
+}
+
+footer
+{
+    background-color: hsl(0, 0%, 93%);
+    text-align: center;
+    padding-bottom: 3em;
+}
+#footer-left-container
+{
+    margin-bottom: 2em;
+    color:rgb(80, 80, 80);
+}
+.menu-element:hover
+{
+    cursor: pointer;
+    color:hsl(171, 66%, 44%);
+}
+#footer-logo 
+{ 
+    width:15%;
+    margin: 3em 0 2em 0;
+}
+.menu-element
+{
+    margin-bottom: 2em;
+}
+#footer-right-container
+{
+    margin: 3em 0 0em 0;
+}
+#footer-right-container img
+{
+    margin-right: 1em;
+}
+#footer-right-container img:hover
+{
+    cursor: pointer;
+    filter: brightness(0) saturate(100%) invert(51%) sepia(96%) saturate(348%) hue-rotate(122deg) brightness(100%) contrast(86%);
+}

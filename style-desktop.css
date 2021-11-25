@@ -1,0 +1,143 @@
+@media all and (min-width: 900px)
+{
+    body
+    {
+        background: url("images/bg-header-desktop.png") no-repeat 0 0 / 100vw auto;
+    }
+
+    /* -------------HISTORY PANNEL---------- */
+    #history-pannel
+    {
+        width:50%;
+        margin: 0 auto;
+    }
+    #company-logo
+    {
+        width: 17%;
+    }
+    #history-pannel p
+    {
+       width:95%;
+
+    }
+     .button-container
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ios-download-btn {margin-right: 1em;}
+
+
+/* --------------KEEP TRACK--------------- */
+    #keep-track-pannel
+    {
+        text-align: center;
+        margin-bottom: 4em;
+    }
+    #keep-track-description
+    {
+        margin-bottom: 5em;
+        width:60%;
+        margin: 0 auto 4em auto;
+    }
+    #keep-track-computer-container
+    {
+        display: flex;
+        align-items: center;
+        text-align: left;
+        transform: translateX(-4vw);
+    }
+    #keep-track-illustration
+    {
+        width:65%;
+        transform: translateX(-8vw);
+    }
+
+    /* -----------ACCESS CLIPBOARD---------- */
+    #access-clipboard-pannel
+    {
+        margin-bottom: 2em;
+    }
+    #access-clipboard-pannel p
+    {
+        margin: 0 auto 5em auto;
+        width:70%;
+    }
+    #devices-illustration
+    {
+        width:80%;
+    }
+
+    /* ----------SUPERCHARGE WORKFLOW---------- */
+    #workflow-features-container
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .workflow-feature
+    {
+        width:30%;
+    }
+    .workflow-feature p
+    {
+        font-size: 0.8em;
+    }
+    .workflow-feature img
+    {
+        width:2em;
+        height:2em;
+    }
+
+    /* ------------SPONSORS---------- */
+    #sponsors-pannel
+    {
+        display:flex;
+        margin: 5em auto 5em auto;
+    }
+    #sponsors-pannel img
+    {
+        width:7em;
+        height: 2em;
+    }
+    /* -------------CLIPBOARD PANNEL------------ */
+
+    #clipboard-apple-pannel p
+    {
+        width:70%;
+        margin: 0 auto 1em auto;
+    }
+
+    /* -------FOOTER-------- */
+    footer
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items:center;
+        padding: 2em 0 2em 0;
+    }
+
+    #footer-left-container
+    {
+        display: flex;
+        justify-content: center;
+        align-items:flex-start;
+        margin-bottom: 0;        
+    }
+    #footer-logo 
+    { 
+        width:6%;
+        margin: 0 2em 0 0;
+    }
+    .menu-element
+    {
+        margin: 0 5em 0em 0;
+        text-align:left;
+    }
+    #footer-right-container
+    {
+        margin:0;
+    }
+}
+
